@@ -1,0 +1,30 @@
+#projects{
+    max-width: 70rem;
+    margin: 2.4rem;
+    margin-left: 9rem;
+    
+}
+.prohead{
+   padding: 1.5rem; 
+   font-size: 2rem;
+   font-weight: 600;
+   color: gold;
+}
+#project{
+    border: 0.5px solid white;
+    padding: 1rem;
+    
+}
+.projectpara{
+    width: 55%;
+    font-size: 15px;
+    font-weight: 2rem;
+}
+tr,td{
+    
+    padding: 1rem;
+
+}
+.head{
+    background-color: rgb(50,50,50);
+}

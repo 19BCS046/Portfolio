@@ -1,0 +1,46 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 85rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    margin-top: 10px;
+    Z-index:3;
+    font-size: 25px;
+}
+.i1{
+    object-fit: cover;
+    height: 9rem;
+    width: 9rem;
+}
+.menuitem{
+    margin: 1rem;
+    cursor: pointer;
+    color: white;
+}
+.menubtn{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    font-size: 18px;
+    border-radius: 2rem;  
+    padding: 6px;
+    cursor: pointer;
+    
+}
+.icon{
+    height: 2rem;
+    width: 3rem;
+    align-items: center;
+}
+.menuitem:hover {
+color: gold;
+padding-bottom: 0.5px;
+border-bottom: 3px solid gold;  
+}

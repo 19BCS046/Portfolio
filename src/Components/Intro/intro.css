@@ -1,0 +1,77 @@
+#intro{
+    height:calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 2rem;
+}
+.introduct{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.porti{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height:70vh;
+       
+}
+.btn1{
+    color: white;
+}
+
+.hello{
+    font-size:2rem;
+    font-weight: 100;
+}
+.introname{
+    color:gold;
+}
+.intropara{
+    margin-top: 0.5rem;
+    font-size: medium;
+    font-weight: 100;
+}
+.btn1{
+    background-color: gold;
+    color: black;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 2rem;  
+    margin-top: 1rem;
+    font-weight: 20rem;
+}
+.hire{
+    height: 2rem;
+    width:2rem;
+    margin: 0 1rem;
+}
+@media screen and (max-width:840px) {
+    .porti{
+        right: -10vw;
+    }
+    .intro{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .porti{
+        right: -20vw;
+    }
+    }
